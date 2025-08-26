@@ -1,38 +1,27 @@
-import requests
-from bs4 import BeautifulSoup
-from fake_useragent import UserAgent
+"""
+Monthly data scraper for Newcastle Port statistics.
+
+Refactored from monthly_data.py to use shared utilities and better organization.
+"""
+
 import pandas as pd
+from bs4 import BeautifulSoup
 from io import BytesIO
 import numpy as np
 import json
 import os
+import logging
 
-# TODO
-# - Add debug logger
+from ..http_client import spoof_get
+from ..config import MONTHLY_DATA_PORTAL_URL, MONTHLY_DATA_EXCEL_URL
 
-DYN_DATA_URL = (
-    "https://www.transport.nsw.gov.au/data-and-research/freight-data/port-of-newcastle"
-)
-STATIC_URL = "https://opendata.transport.nsw.gov.au/data/dataset/5da0e3b9-e46a-4aa3-96c9-2574d83fe6fb/resource/3c5c9d89-ce54-4f72-9550-4077b7540612/download/port-of-newcastle.xlsx"
-
-# Get an up-to-date fake useragent
-ua = UserAgent()
-
-
-# Create a reusable function with default headers
-def spoof_get(url, **kwargs):
-    """
-    Performs a GET request to the given URL with a random User-Agent header.
-
-    Any additional keyword arguments are passed to requests.get.
-    """
-    headers = kwargs.pop("headers", {})
-    headers.setdefault("User-Agent", ua.random)
-    return requests.get(url, headers=headers, **kwargs)
+logger = logging.getLogger(__name__)
 
 
 def get_url_dynamic():
-    response = spoof_get(DYN_DATA_URL)
+    """Get the current dynamic URL for the Excel file."""
+    logger.info("Fetching dynamic URL from NSW Transport website")
+    response = spoof_get(MONTHLY_DATA_PORTAL_URL)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
@@ -48,43 +37,50 @@ def get_url_dynamic():
     soup = BeautifulSoup(response.text, "html.parser")
 
     dynamic_url = soup.find("a", class_="resource-url-analytics")["href"]
+    logger.debug(f"Found dynamic URL: {dynamic_url}")
 
     return dynamic_url
 
 
 def get_xlsx():
+    """Download the Excel file with monthly data."""
+    logger.info("Downloading Excel file with monthly data")
     dynamic_url = get_url_dynamic()
 
     # check to see if the status url has changed, out of curiousity.
-    # usure yet if it changes each month (or sooner)
-    if dynamic_url != STATIC_URL:
-        print("NOTE: Saved static URL different to dynamic URL, using new URL")
+    # unsure yet if it changes each month (or sooner)
+    if dynamic_url != MONTHLY_DATA_EXCEL_URL:
+        logger.info("NOTE: Saved static URL different to dynamic URL, using new URL")
 
-    url = dynamic_url or STATIC_URL
-
-    # print(url)
+    url = dynamic_url or MONTHLY_DATA_EXCEL_URL
 
     response = spoof_get(url)
     response.raise_for_status()
 
+    logger.info(f"Downloaded {len(response.content)} bytes")
     return response.content
 
 
 class TODExcelWorkbook:
+    """Transport Open Data Excel Workbook parser."""
+
     SHEET_NAMES = ["Readme", "Notes&Methods", "Port of Newcastle"]
 
-    def __init__(self, bytes):
+    def __init__(self, bytes_data):
+        logger.info("Parsing Excel workbook")
         # Create the spreadsheet dataframe
         self.spreadsheet = pd.read_excel(
-            BytesIO(bytes), sheet_name=self.SHEET_NAMES, header=None
+            BytesIO(bytes_data), sheet_name=self.SHEET_NAMES, header=None
         )
 
         self.subsheets = {
             name: self._build_subsheet(hdr["slice"])
             for name, hdr in self._get_headings().items()
         }
+        logger.info(f"Parsed {len(self.subsheets)} data sections")
 
     def _get_headings(self):
+        """Extract the data headings from the spreadsheet."""
         # Extract the data headings
         hdr = self.spreadsheet["Port of Newcastle"].iloc[2]
         hdr = hdr[hdr.notna()]
@@ -98,6 +94,7 @@ class TODExcelWorkbook:
         }
 
     def _build_subsheet(self, slice_):
+        """Build a clean dataframe from a slice of the main sheet."""
         df = self.spreadsheet["Port of Newcastle"]
 
         # Convert slice to concrete indices
@@ -130,19 +127,18 @@ class TODExcelWorkbook:
         return res
 
 
-def save_json(xlsx, path="./data/monthly/"):
+def save_json(xlsx, path="../data/monthly/"):
+    """Save the parsed data as JSON files."""
+    logger.info(f"Saving JSON files to {path}")
+
     # create the directory if it doesn't exist
     if not os.path.exists(path):
         os.makedirs(path)
+        logger.info(f"Created directory: {path}")
 
     for ss in xlsx.subsheets:
         filename = ss.replace(" ", "_").lower() + ".json"
-        print(f"Saving {filename}...")
-
-        # data = xlsx.subsheets[ss].to_json(orient="records", date_format="iso")
-        # json_str = f'{{"{ss}": {data}}}'
-        # with open(path + filename, "w") as f:
-        #     json.dump(json.loads(json_str), f, indent=4)
+        logger.info(f"Saving {filename}...")
 
         wrapped = {
             ss: xlsx.subsheets[ss]
@@ -154,9 +150,25 @@ def save_json(xlsx, path="./data/monthly/"):
         with open(path + filename, "w") as f:
             json.dump(wrapped, f, indent=4)
 
+    logger.info("All JSON files saved successfully")
+
+
+def run_monthly_scraper(output_path="../data/monthly/"):
+    """Run the complete monthly data scraping process."""
+    logger.info("Starting monthly data scraper")
+    try:
+        xlsx_data = get_xlsx()
+        workbook = TODExcelWorkbook(xlsx_data)
+        save_json(workbook, output_path)
+        logger.info("Monthly data scraping completed successfully")
+    except Exception as e:
+        logger.error(f"Monthly data scraping failed: {e}")
+        raise
+
 
 def main():
-    save_json(TODExcelWorkbook(get_xlsx()))
+    """Main entry point for standalone script usage."""
+    run_monthly_scraper()
 
 
 if __name__ == "__main__":

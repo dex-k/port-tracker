@@ -1,0 +1,550 @@
+{
+    "Vessel Visits": [
+        {
+            "Date": "2018-01-01T00:00:00",
+            "Coal": 139,
+            "Diversified Trade": 44,
+            "Cruise": 3
+        },
+        {
+            "Date": "2018-02-01T00:00:00",
+            "Coal": 136,
+            "Diversified Trade": 40,
+            "Cruise": 2
+        },
+        {
+            "Date": "2018-03-01T00:00:00",
+            "Coal": 143,
+            "Diversified Trade": 59,
+            "Cruise": 2
+        },
+        {
+            "Date": "2018-04-01T00:00:00",
+            "Coal": 152,
+            "Diversified Trade": 44,
+            "Cruise": 2
+        },
+        {
+            "Date": "2018-05-01T00:00:00",
+            "Coal": 131,
+            "Diversified Trade": 50,
+            "Cruise": 0
+        },
+        {
+            "Date": "2018-06-01T00:00:00",
+            "Coal": 156,
+            "Diversified Trade": 37,
+            "Cruise": 0
+        },
+        {
+            "Date": "2018-07-01T00:00:00",
+            "Coal": 171,
+            "Diversified Trade": 40,
+            "Cruise": 0
+        },
+        {
+            "Date": "2018-08-01T00:00:00",
+            "Coal": 153,
+            "Diversified Trade": 37,
+            "Cruise": 0
+        },
+        {
+            "Date": "2018-09-01T00:00:00",
+            "Coal": 140,
+            "Diversified Trade": 42,
+            "Cruise": 0
+        },
+        {
+            "Date": "2018-10-01T00:00:00",
+            "Coal": 161,
+            "Diversified Trade": 39,
+            "Cruise": 2
+        },
+        {
+            "Date": "2018-11-01T00:00:00",
+            "Coal": 122,
+            "Diversified Trade": 38,
+            "Cruise": 1
+        },
+        {
+            "Date": "2018-12-01T00:00:00",
+            "Coal": 165,
+            "Diversified Trade": 45,
+            "Cruise": 1
+        },
+        {
+            "Date": "2019-01-01T00:00:00",
+            "Coal": 151,
+            "Diversified Trade": 48,
+            "Cruise": 3
+        },
+        {
+            "Date": "2019-02-01T00:00:00",
+            "Coal": 134,
+            "Diversified Trade": 39,
+            "Cruise": 5
+        },
+        {
+            "Date": "2019-03-01T00:00:00",
+            "Coal": 148,
+            "Diversified Trade": 45,
+            "Cruise": 2
+        },
+        {
+            "Date": "2019-04-01T00:00:00",
+            "Coal": 137,
+            "Diversified Trade": 45,
+            "Cruise": 7
+        },
+        {
+            "Date": "2019-05-01T00:00:00",
+            "Coal": 133,
+            "Diversified Trade": 35,
+            "Cruise": 0
+        },
+        {
+            "Date": "2019-06-01T00:00:00",
+            "Coal": 153,
+            "Diversified Trade": 32,
+            "Cruise": 0
+        },
+        {
+            "Date": "2019-07-01T00:00:00",
+            "Coal": 172,
+            "Diversified Trade": 37,
+            "Cruise": 0
+        },
+        {
+            "Date": "2019-08-01T00:00:00",
+            "Coal": 166,
+            "Diversified Trade": 33,
+            "Cruise": 0
+        },
+        {
+            "Date": "2019-09-01T00:00:00",
+            "Coal": 139,
+            "Diversified Trade": 32,
+            "Cruise": 0
+        },
+        {
+            "Date": "2019-10-01T00:00:00",
+            "Coal": 163,
+            "Diversified Trade": 37,
+            "Cruise": 3
+        },
+        {
+            "Date": "2019-11-01T00:00:00",
+            "Coal": 164,
+            "Diversified Trade": 38,
+            "Cruise": 4
+        },
+        {
+            "Date": "2019-12-01T00:00:00",
+            "Coal": 178,
+            "Diversified Trade": 38,
+            "Cruise": 2
+        },
+        {
+            "Date": "2020-01-01T00:00:00",
+            "Coal": 153,
+            "Diversified Trade": 36,
+            "Cruise": 2
+        },
+        {
+            "Date": "2020-02-01T00:00:00",
+            "Coal": 132,
+            "Diversified Trade": 31,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-03-01T00:00:00",
+            "Coal": 159,
+            "Diversified Trade": 35,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-04-01T00:00:00",
+            "Coal": 141,
+            "Diversified Trade": 39,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-05-01T00:00:00",
+            "Coal": 122,
+            "Diversified Trade": 42,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-06-01T00:00:00",
+            "Coal": 157,
+            "Diversified Trade": 39,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-07-01T00:00:00",
+            "Coal": 130,
+            "Diversified Trade": 34,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-08-01T00:00:00",
+            "Coal": 166,
+            "Diversified Trade": 45,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-09-01T00:00:00",
+            "Coal": 139,
+            "Diversified Trade": 36,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-10-01T00:00:00",
+            "Coal": 159,
+            "Diversified Trade": 35,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-11-01T00:00:00",
+            "Coal": 128,
+            "Diversified Trade": 35,
+            "Cruise": 0
+        },
+        {
+            "Date": "2020-12-01T00:00:00",
+            "Coal": 168,
+            "Diversified Trade": 44,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-01-01T00:00:00",
+            "Coal": 169,
+            "Diversified Trade": 45,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-02-01T00:00:00",
+            "Coal": 149,
+            "Diversified Trade": 42,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-03-01T00:00:00",
+            "Coal": 111,
+            "Diversified Trade": 49,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-04-01T00:00:00",
+            "Coal": 143,
+            "Diversified Trade": 48,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-05-01T00:00:00",
+            "Coal": 124,
+            "Diversified Trade": 37,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-06-01T00:00:00",
+            "Coal": 145,
+            "Diversified Trade": 43,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-07-01T00:00:00",
+            "Coal": 158,
+            "Diversified Trade": 39,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-08-01T00:00:00",
+            "Coal": 156,
+            "Diversified Trade": 39,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-09-01T00:00:00",
+            "Coal": 161,
+            "Diversified Trade": 47,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-10-01T00:00:00",
+            "Coal": 164,
+            "Diversified Trade": 41,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-11-01T00:00:00",
+            "Coal": 145,
+            "Diversified Trade": 37,
+            "Cruise": 0
+        },
+        {
+            "Date": "2021-12-01T00:00:00",
+            "Coal": 146,
+            "Diversified Trade": 42,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-01-01T00:00:00",
+            "Coal": 160,
+            "Diversified Trade": 40,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-02-01T00:00:00",
+            "Coal": 123,
+            "Diversified Trade": 37,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-03-01T00:00:00",
+            "Coal": 121,
+            "Diversified Trade": 44,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-04-01T00:00:00",
+            "Coal": 138,
+            "Diversified Trade": 40,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-05-01T00:00:00",
+            "Coal": 138,
+            "Diversified Trade": 39,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-06-01T00:00:00",
+            "Coal": 143,
+            "Diversified Trade": 38,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-07-01T00:00:00",
+            "Coal": 97,
+            "Diversified Trade": 39,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-08-01T00:00:00",
+            "Coal": 154,
+            "Diversified Trade": 38,
+            "Cruise": 3
+        },
+        {
+            "Date": "2022-09-01T00:00:00",
+            "Coal": 117,
+            "Diversified Trade": 44,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-10-01T00:00:00",
+            "Coal": 118,
+            "Diversified Trade": 41,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-11-01T00:00:00",
+            "Coal": 97,
+            "Diversified Trade": 39,
+            "Cruise": 0
+        },
+        {
+            "Date": "2022-12-01T00:00:00",
+            "Coal": 156,
+            "Diversified Trade": 40,
+            "Cruise": 4
+        },
+        {
+            "Date": "2023-01-01T00:00:00",
+            "Coal": 117,
+            "Diversified Trade": 50,
+            "Cruise": 1
+        },
+        {
+            "Date": "2023-02-01T00:00:00",
+            "Coal": 119,
+            "Diversified Trade": 37,
+            "Cruise": 1
+        },
+        {
+            "Date": "2023-03-01T00:00:00",
+            "Coal": 128,
+            "Diversified Trade": 49,
+            "Cruise": 3
+        },
+        {
+            "Date": "2023-04-01T00:00:00",
+            "Coal": 120,
+            "Diversified Trade": 41,
+            "Cruise": 0
+        },
+        {
+            "Date": "2023-05-01T00:00:00",
+            "Coal": 124,
+            "Diversified Trade": 48,
+            "Cruise": 0
+        },
+        {
+            "Date": "2023-06-01T00:00:00",
+            "Coal": 151,
+            "Diversified Trade": 45,
+            "Cruise": 0
+        },
+        {
+            "Date": "2023-07-01T00:00:00",
+            "Coal": 153,
+            "Diversified Trade": 43,
+            "Cruise": 0
+        },
+        {
+            "Date": "2023-08-01T00:00:00",
+            "Coal": 130,
+            "Diversified Trade": 38,
+            "Cruise": 0
+        },
+        {
+            "Date": "2023-09-01T00:00:00",
+            "Coal": 139,
+            "Diversified Trade": 40,
+            "Cruise": 0
+        },
+        {
+            "Date": "2023-10-01T00:00:00",
+            "Coal": 136,
+            "Diversified Trade": 41,
+            "Cruise": 2
+        },
+        {
+            "Date": "2023-11-01T00:00:00",
+            "Coal": 142,
+            "Diversified Trade": 36,
+            "Cruise": 0
+        },
+        {
+            "Date": "2023-12-01T00:00:00",
+            "Coal": 170,
+            "Diversified Trade": 39,
+            "Cruise": 3
+        },
+        {
+            "Date": "2024-01-01T00:00:00",
+            "Coal": 149,
+            "Diversified Trade": 53,
+            "Cruise": 1
+        },
+        {
+            "Date": "2024-02-01T00:00:00",
+            "Coal": 123,
+            "Diversified Trade": 33,
+            "Cruise": 4
+        },
+        {
+            "Date": "2024-03-01T00:00:00",
+            "Coal": 142,
+            "Diversified Trade": 53,
+            "Cruise": 5
+        },
+        {
+            "Date": "2024-04-01T00:00:00",
+            "Coal": 149,
+            "Diversified Trade": 53,
+            "Cruise": 1
+        },
+        {
+            "Date": "2024-05-01T00:00:00",
+            "Coal": 128,
+            "Diversified Trade": 46,
+            "Cruise": 0
+        },
+        {
+            "Date": "2024-06-01T00:00:00",
+            "Coal": 141,
+            "Diversified Trade": 45,
+            "Cruise": 0
+        },
+        {
+            "Date": "2024-07-01T00:00:00",
+            "Coal": 134,
+            "Diversified Trade": 45,
+            "Cruise": 0
+        },
+        {
+            "Date": "2024-08-01T00:00:00",
+            "Coal": 161,
+            "Diversified Trade": 50,
+            "Cruise": 0
+        },
+        {
+            "Date": "2024-09-01T00:00:00",
+            "Coal": 138,
+            "Diversified Trade": 32,
+            "Cruise": 0
+        },
+        {
+            "Date": "2024-10-01T00:00:00",
+            "Coal": 154,
+            "Diversified Trade": 37,
+            "Cruise": 0
+        },
+        {
+            "Date": "2024-11-01T00:00:00",
+            "Coal": 144,
+            "Diversified Trade": 43,
+            "Cruise": 2
+        },
+        {
+            "Date": "2024-12-01T00:00:00",
+            "Coal": 176,
+            "Diversified Trade": 47,
+            "Cruise": 1
+        },
+        {
+            "Date": "2025-01-01T00:00:00",
+            "Coal": 129,
+            "Diversified Trade": 48,
+            "Cruise": 1
+        },
+        {
+            "Date": "2025-02-01T00:00:00",
+            "Coal": 128,
+            "Diversified Trade": 43,
+            "Cruise": 3
+        },
+        {
+            "Date": "2025-03-01T00:00:00",
+            "Coal": 143,
+            "Diversified Trade": 47,
+            "Cruise": 2
+        },
+        {
+            "Date": "2025-04-01T00:00:00",
+            "Coal": 131,
+            "Diversified Trade": 42,
+            "Cruise": 0
+        },
+        {
+            "Date": "2025-05-01T00:00:00",
+            "Coal": 102,
+            "Diversified Trade": 36,
+            "Cruise": 0
+        },
+        {
+            "Date": "2025-06-01T00:00:00",
+            "Coal": 158,
+            "Diversified Trade": 53,
+            "Cruise": 0
+        },
+        {
+            "Date": "2025-07-01T00:00:00",
+            "Coal": 168,
+            "Diversified Trade": 41,
+            "Cruise": 0
+        }
+    ]
+}

@@ -1,0 +1,459 @@
+{
+    "Containers": [
+        {
+            "Date": "2018-01-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-02-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-03-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-04-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-05-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-06-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-07-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-08-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-09-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-10-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-11-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2018-12-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2019-01-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2019-02-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2019-03-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2019-04-01T00:00:00",
+            "Import TEUs": NaN,
+            "Export TEUs": NaN
+        },
+        {
+            "Date": "2019-05-01T00:00:00",
+            "Import TEUs": 232.0,
+            "Export TEUs": 168.0
+        },
+        {
+            "Date": "2019-06-01T00:00:00",
+            "Import TEUs": 168.0,
+            "Export TEUs": 208.0
+        },
+        {
+            "Date": "2019-07-01T00:00:00",
+            "Import TEUs": 120.0,
+            "Export TEUs": 165.0
+        },
+        {
+            "Date": "2019-08-01T00:00:00",
+            "Import TEUs": 190.0,
+            "Export TEUs": 146.0
+        },
+        {
+            "Date": "2019-09-01T00:00:00",
+            "Import TEUs": 308.0,
+            "Export TEUs": 196.0
+        },
+        {
+            "Date": "2019-10-01T00:00:00",
+            "Import TEUs": 155.0,
+            "Export TEUs": 111.0
+        },
+        {
+            "Date": "2019-11-01T00:00:00",
+            "Import TEUs": 360.0,
+            "Export TEUs": 249.0
+        },
+        {
+            "Date": "2019-12-01T00:00:00",
+            "Import TEUs": 31.0,
+            "Export TEUs": 97.0
+        },
+        {
+            "Date": "2020-01-01T00:00:00",
+            "Import TEUs": 97.0,
+            "Export TEUs": 25.0
+        },
+        {
+            "Date": "2020-02-01T00:00:00",
+            "Import TEUs": 82.0,
+            "Export TEUs": 42.0
+        },
+        {
+            "Date": "2020-03-01T00:00:00",
+            "Import TEUs": 156.0,
+            "Export TEUs": 58.0
+        },
+        {
+            "Date": "2020-04-01T00:00:00",
+            "Import TEUs": 68.0,
+            "Export TEUs": 60.0
+        },
+        {
+            "Date": "2020-05-01T00:00:00",
+            "Import TEUs": 124.0,
+            "Export TEUs": 153.0
+        },
+        {
+            "Date": "2020-06-01T00:00:00",
+            "Import TEUs": 6.0,
+            "Export TEUs": 0.0
+        },
+        {
+            "Date": "2020-07-01T00:00:00",
+            "Import TEUs": 182.0,
+            "Export TEUs": 155.0
+        },
+        {
+            "Date": "2020-08-01T00:00:00",
+            "Import TEUs": 236.0,
+            "Export TEUs": 144.0
+        },
+        {
+            "Date": "2020-09-01T00:00:00",
+            "Import TEUs": 119.0,
+            "Export TEUs": 81.0
+        },
+        {
+            "Date": "2020-10-01T00:00:00",
+            "Import TEUs": 163.0,
+            "Export TEUs": 127.0
+        },
+        {
+            "Date": "2020-11-01T00:00:00",
+            "Import TEUs": 94.0,
+            "Export TEUs": 81.0
+        },
+        {
+            "Date": "2020-12-01T00:00:00",
+            "Import TEUs": 145.0,
+            "Export TEUs": 321.0
+        },
+        {
+            "Date": "2021-01-01T00:00:00",
+            "Import TEUs": 122.0,
+            "Export TEUs": 242.0
+        },
+        {
+            "Date": "2021-02-01T00:00:00",
+            "Import TEUs": 116.0,
+            "Export TEUs": 371.0
+        },
+        {
+            "Date": "2021-03-01T00:00:00",
+            "Import TEUs": 258.0,
+            "Export TEUs": 158.0
+        },
+        {
+            "Date": "2021-04-01T00:00:00",
+            "Import TEUs": 13.0,
+            "Export TEUs": 0.0
+        },
+        {
+            "Date": "2021-05-01T00:00:00",
+            "Import TEUs": 94.0,
+            "Export TEUs": 186.0
+        },
+        {
+            "Date": "2021-06-01T00:00:00",
+            "Import TEUs": 50.0,
+            "Export TEUs": 143.0
+        },
+        {
+            "Date": "2021-07-01T00:00:00",
+            "Import TEUs": 174.0,
+            "Export TEUs": 125.0
+        },
+        {
+            "Date": "2021-08-01T00:00:00",
+            "Import TEUs": 130.0,
+            "Export TEUs": 178.0
+        },
+        {
+            "Date": "2021-09-01T00:00:00",
+            "Import TEUs": 205.0,
+            "Export TEUs": 165.0
+        },
+        {
+            "Date": "2021-10-01T00:00:00",
+            "Import TEUs": 463.0,
+            "Export TEUs": 129.0
+        },
+        {
+            "Date": "2021-11-01T00:00:00",
+            "Import TEUs": 2.0,
+            "Export TEUs": 22.0
+        },
+        {
+            "Date": "2021-12-01T00:00:00",
+            "Import TEUs": 22.0,
+            "Export TEUs": 0.0
+        },
+        {
+            "Date": "2022-01-01T00:00:00",
+            "Import TEUs": 192.0,
+            "Export TEUs": 187.0
+        },
+        {
+            "Date": "2022-02-01T00:00:00",
+            "Import TEUs": 62.0,
+            "Export TEUs": 76.0
+        },
+        {
+            "Date": "2022-03-01T00:00:00",
+            "Import TEUs": 256.0,
+            "Export TEUs": 94.0
+        },
+        {
+            "Date": "2022-04-01T00:00:00",
+            "Import TEUs": 82.0,
+            "Export TEUs": 90.0
+        },
+        {
+            "Date": "2022-05-01T00:00:00",
+            "Import TEUs": 122.0,
+            "Export TEUs": 81.0
+        },
+        {
+            "Date": "2022-06-01T00:00:00",
+            "Import TEUs": 82.0,
+            "Export TEUs": 242.0
+        },
+        {
+            "Date": "2022-07-01T00:00:00",
+            "Import TEUs": 171.0,
+            "Export TEUs": 168.0
+        },
+        {
+            "Date": "2022-08-01T00:00:00",
+            "Import TEUs": 1.0,
+            "Export TEUs": 0.0
+        },
+        {
+            "Date": "2022-09-01T00:00:00",
+            "Import TEUs": 166.0,
+            "Export TEUs": 160.0
+        },
+        {
+            "Date": "2022-10-01T00:00:00",
+            "Import TEUs": 394.0,
+            "Export TEUs": 184.0
+        },
+        {
+            "Date": "2022-11-01T00:00:00",
+            "Import TEUs": 171.0,
+            "Export TEUs": 168.0
+        },
+        {
+            "Date": "2022-12-01T00:00:00",
+            "Import TEUs": 149.0,
+            "Export TEUs": 187.0
+        },
+        {
+            "Date": "2023-01-01T00:00:00",
+            "Import TEUs": 332.0,
+            "Export TEUs": 134.0
+        },
+        {
+            "Date": "2023-02-01T00:00:00",
+            "Import TEUs": 131.0,
+            "Export TEUs": 76.0
+        },
+        {
+            "Date": "2023-03-01T00:00:00",
+            "Import TEUs": 195.0,
+            "Export TEUs": 96.0
+        },
+        {
+            "Date": "2023-04-01T00:00:00",
+            "Import TEUs": 132.0,
+            "Export TEUs": 84.0
+        },
+        {
+            "Date": "2023-05-01T00:00:00",
+            "Import TEUs": 128.0,
+            "Export TEUs": 85.0
+        },
+        {
+            "Date": "2023-06-01T00:00:00",
+            "Import TEUs": 183.0,
+            "Export TEUs": 199.0
+        },
+        {
+            "Date": "2023-07-01T00:00:00",
+            "Import TEUs": 69.0,
+            "Export TEUs": 158.0
+        },
+        {
+            "Date": "2023-08-01T00:00:00",
+            "Import TEUs": 232.0,
+            "Export TEUs": 206.0
+        },
+        {
+            "Date": "2023-09-01T00:00:00",
+            "Import TEUs": 274.0,
+            "Export TEUs": 325.0
+        },
+        {
+            "Date": "2023-10-01T00:00:00",
+            "Import TEUs": 694.0,
+            "Export TEUs": 402.0
+        },
+        {
+            "Date": "2023-11-01T00:00:00",
+            "Import TEUs": 107.0,
+            "Export TEUs": 267.0
+        },
+        {
+            "Date": "2023-12-01T00:00:00",
+            "Import TEUs": 348.0,
+            "Export TEUs": 229.0
+        },
+        {
+            "Date": "2024-01-01T00:00:00",
+            "Import TEUs": 574.0,
+            "Export TEUs": 253.0
+        },
+        {
+            "Date": "2024-02-01T00:00:00",
+            "Import TEUs": 24.0,
+            "Export TEUs": 86.0
+        },
+        {
+            "Date": "2024-03-01T00:00:00",
+            "Import TEUs": 0.0,
+            "Export TEUs": 64.0
+        },
+        {
+            "Date": "2024-04-01T00:00:00",
+            "Import TEUs": 574.0,
+            "Export TEUs": 253.0
+        },
+        {
+            "Date": "2024-05-01T00:00:00",
+            "Import TEUs": 157.0,
+            "Export TEUs": 265.0
+        },
+        {
+            "Date": "2024-06-01T00:00:00",
+            "Import TEUs": 199.0,
+            "Export TEUs": 357.0
+        },
+        {
+            "Date": "2024-07-01T00:00:00",
+            "Import TEUs": 4.0,
+            "Export TEUs": 0.0
+        },
+        {
+            "Date": "2024-08-01T00:00:00",
+            "Import TEUs": 1004.0,
+            "Export TEUs": 1092.0
+        },
+        {
+            "Date": "2024-09-01T00:00:00",
+            "Import TEUs": 4.0,
+            "Export TEUs": 41.0
+        },
+        {
+            "Date": "2024-10-01T00:00:00",
+            "Import TEUs": 41.0,
+            "Export TEUs": 63.0
+        },
+        {
+            "Date": "2024-11-01T00:00:00",
+            "Import TEUs": 28.0,
+            "Export TEUs": 45.0
+        },
+        {
+            "Date": "2024-12-01T00:00:00",
+            "Import TEUs": 31.0,
+            "Export TEUs": 40.0
+        },
+        {
+            "Date": "2025-01-01T00:00:00",
+            "Import TEUs": 80.0,
+            "Export TEUs": 42.0
+        },
+        {
+            "Date": "2025-02-01T00:00:00",
+            "Import TEUs": 30.0,
+            "Export TEUs": 0.0
+        },
+        {
+            "Date": "2025-03-01T00:00:00",
+            "Import TEUs": 22.0,
+            "Export TEUs": 14.0
+        },
+        {
+            "Date": "2025-04-01T00:00:00",
+            "Import TEUs": 83.0,
+            "Export TEUs": 160.0
+        },
+        {
+            "Date": "2025-05-01T00:00:00",
+            "Import TEUs": 0.0,
+            "Export TEUs": 0.0
+        },
+        {
+            "Date": "2025-06-01T00:00:00",
+            "Import TEUs": 99.0,
+            "Export TEUs": 225.0
+        },
+        {
+            "Date": "2025-07-01T00:00:00",
+            "Import TEUs": 2.0,
+            "Export TEUs": 0.0
+        }
+    ]
+}
